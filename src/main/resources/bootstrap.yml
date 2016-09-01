@@ -1,0 +1,12 @@
+---
+spring:  
+  cloud:
+    config:
+      uri: http://localhost:8080
+  
+  application:
+    name: consumer-microservice
+      
+server:
+  port: 8004
+  
